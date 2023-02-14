@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# TAKEMEHOME
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was a take home assignment issued by BeyondSoft
 
 ## Available Scripts
 
@@ -38,6 +38,10 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Google Maps API
+
+This application is powered with `Google Places AutoComplete API` and `react-google-map`. In order to access the features, please have the Google Maps API enabled in Google Cloud Platform. Once the API Key is generated in `Credentials` tab, copy the API key and create a file named as `.env` in the root directory in the project. After that, write `REACT_APP_GOOGLE_MAPS_API_KEY = <YOUR_API_KEY>` then `npm start`, everything will work well and enjoy! :3
 
 ## Learn More
 
